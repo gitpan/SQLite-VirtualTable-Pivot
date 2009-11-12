@@ -1,6 +1,6 @@
 ---
 name: SQLite-VirtualTable-Pivot
-version: 0.01
+version: 0.02
 author:
   - 'Brian Duggan <bduggan@matatu.org>'
 abstract: Manipulate pivot tables using sqlite virtual tables
@@ -21,7 +21,7 @@ configure_requires:
 provides:
   SQLite::VirtualTable::Pivot:
     file: lib/SQLite/VirtualTable/Pivot.pm
-    version: 0.01
+    version: 0.02
   SQLite::VirtualTable::Pivot::Cursor:
     file: lib/SQLite/VirtualTable/Pivot/Cursor.pm
 generated_by: Module::Build version 0.35

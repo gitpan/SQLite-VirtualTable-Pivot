@@ -3,6 +3,7 @@ benchmark/do_benchmark
 benchmark/joined_view.pl
 benchmark/mk-data-sparse.pl
 benchmark/mk-data.pl
+benchmark/pivot-vs-aggregate.pl
 benchmark/query/all.tmp
 benchmark/query/group.tmp
 benchmark/query/select.sql
@@ -24,12 +25,15 @@ README
 t/00-load.t
 t/commandline.t
 t/in/aggregate.sql
+t/in/foreign_keys.sql
 t/in/homogenous.sql
 t/in/join.sql
 t/in/simple.sql
 t/in/types.sql
 t/out/aggregate.out
+t/out/foreign_keys.out
 t/out/homogenous.out
 t/out/join.out
 t/out/simple.out
 t/out/types.out
+t/pod.t
